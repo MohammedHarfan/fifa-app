@@ -1,0 +1,65 @@
+/* Reduce font size for all elements */
+body {
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: 20px;
+}
+
+.left-box {
+  background-color: #f2f2f2;
+  border: 1px solid #ccc;
+  padding: 20px;
+  /* width: calc(50% - 20px); */
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.right-box, .matches-box{
+  background-color: #f2f2f2;
+  border: 1px solid #ccc;
+  padding: 20px;
+  /* width: calc(50% - 20px); */
+  border-radius: 5px;
+  font-size: 14px;
+  display: flex;
+  flex-direction: column; /* Display as a column */
+  float: right; /* Float to the right */
+}
+
+/* Style for the "Generate Tournament" button */
+button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+  font-size: 14px;
+}
+
+/* Style for button hover effect */
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Style for lists inside boxes */
+.left-box ul,
+.right-box ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Style for list items */
+.left-box ul li,
+.right-box ul li {
+  margin-bottom: 5px;
+}
